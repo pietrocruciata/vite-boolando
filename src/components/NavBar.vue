@@ -12,7 +12,7 @@
                         </ul>
                     </div>
                     <div class="col-2">
-                        <img class="max-h p-top" src="./img/boolean-logo.png" alt="">
+                        <img class="max-h p-top" src="/public/img/boolean-logo.png" alt="">
                     </div>
                     <div class="col-3">
                         <ul class="d-flex gap-20">
