@@ -1,0 +1,101 @@
+.container {
+    padding: 10px;
+
+}
+
+.d-flex {
+    display: flex;
+}
+
+.f-wrap {
+    flex-wrap: wrap;
+}
+
+.pl-40 {
+    padding-left: 40px;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.max-h {
+    max-height: 30px;
+}
+
+.max-w {
+    max-width: 330px;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.jc-space-around {
+    justify-content: space-around;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+.p-top {
+    padding-top: 10px;
+}
+
+.pl-230 {
+    padding-left: 230px;
+}
+
+.badge-red {
+    color: white;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 130px;
+
+}
+
+.badge-green {
+    color: white;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 130px;
+    left: 60px;
+}
+
+.only-sos {
+    position: absolute;
+    color: white;
+    width: 110px;
+    bottom: 130px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.hearts {
+    background-color: white;
+    position: absolute;
+    top: 30px;
+    width: 30px;
+    height: 30px;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+.p-m-not {
+    padding: 0;
+    margin: 0;
+}
+
+.line-through {
+    text-decoration: line-through;
+}

@@ -1,0 +1,11 @@
+.card .img-second {
+    display: none;
+}
+
+.card:hover .img-second {
+    display: block;
+}
+
+.card:hover .img-first {
+    display: none;
+}
