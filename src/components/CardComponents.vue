@@ -1,26 +1,32 @@
 <script>
+
 export default {
-    props: {
-        item: {
-            type: Object
-        }
+    components: {
+    },
+    props: ['item'],
+    data() {
+        return {
+        };
     },
     methods: {
         getDiscount() {
-
+            /*
             let finalPrice = 0
-            if (this.product.badges.type === 'discount' && this.product.badges.value === '-50%') {
-                let rest50 = this.product.badges.price * 0.5.toFixed(2);
-                finalPrice = this.product.badges.price - rest50
+            if (this.store.product.badges.type === 'discount' && this.store.product.badges.value === '-50%') {
+                let rest50 = this.store.product.badges.price * 0.5.toFixed(2);
+                finalPrice = this.store.product.badges.price - rest50
             } else {
-                let rest30 = this.product.badges.price * 0.3.toFixed(2);
-                finalPrice = this.product.badges.price - rest30
+                let rest30 = this.store.product.badges.price * 0.3.toFixed(2);
+                finalPrice = this.store.product.badges.price - rest30
             }
             return finalPrice
+            */
         }
+    },
+
+    mounted() {
+        console.log(this.item);
     }
-
-
 }
 </script>
 
